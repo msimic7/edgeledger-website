@@ -1,0 +1,204 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family:'Roboto', sans-serif;
+  line-height: 1.4;
+}
+a {
+  text-decoration: none;
+}
+li{
+  list-style: none;
+}
+
+/*Utility*/
+
+.text-center {
+  text-align: center;
+}
+.primary-text {
+  color:#93cb52;
+}
+.l-heading {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+  line-height: 1.1;
+}
+.m-heading {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  line-height: 1.1;
+}
+.lead {
+  font-size: 1.25;
+  margin-bottom: 2rem;
+}
+.btn {
+  display: inline-block;
+  background: #93cb52;
+  color: #f4f4f4;
+  padding: 0.5rem 2rem;
+  border: none;
+  border-radius: 5px;
+}
+.btn:hover {
+  background: #7ab436;
+}
+.btn-dark {
+  background: #333;
+  color: #f4f4f4;
+}
+.container {
+  max-width: 1080px;
+  margin: auto;
+  overflow: hidden;
+  padding: 0 2rem;
+}
+.bg-primary {
+  background: #93cb52;
+  color: #f4f4f4;
+}
+.bg-light { 
+  background: #f4f4f4;
+  color: #333;
+}
+.bg-dark { 
+  background: #333;
+  color: #f4f4f4;
+}
+.list {
+  margin: 0.5rem 0;
+  list-style: none;
+}
+.py-1 { padding: 1rem 0; }
+.py-2 { padding: 2rem 0; }
+.py-3 { padding: 3rem 0; }
+.p-1 { padding: 1rem; }
+.p-2 { padding: 2rem; }
+.p-3 { padding: 3rem; }
+
+/*Navbar*/
+
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  background: #333;
+  color: #f4f4f4;
+  padding: 1rem;
+  z-index: 1;
+}
+#navbar ul{
+  display:flex;
+  align-items: center;
+}
+#navbar ul li a {
+  color: #f4f4f4;
+  padding: 0.75rem;
+  margin: 0 0.25rem;
+}
+#navbar ul li a:hover {
+  background: #93cb52;
+  padding: 0.75rem;
+  margin: 0 0.25rem;
+  border-radius: 5px;
+}
+
+/*Showcase section*/
+
+#showcase {
+  background: #333 url("../img/showcase.jpg")
+  no-repeat center center/cover;
+  height: 100vh;
+  color: #f4f4f4;
+}
+#showcase .showcase-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  align-items: center;
+  text-align: center;
+  padding: 0 2rem;
+  position: absolute;
+  top: 65px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.4);
+}
+
+/*What section*/
+
+#what .items {
+  display: flex;
+  padding: 1rem;
+}
+#what .items .item {
+  flex: 1;
+  text-align: center;
+  padding: 1rem;
+}
+#what .items .item i{
+  background: #93cb52;
+  padding: 1rem;
+  border-radius: 50%;
+}
+
+/*Who section*/
+
+#who {
+  display: flex;
+}
+#who div {
+  flex:1;
+  flex-basis: 50%;
+}
+#who .who-img {
+  background: url("../img/people.jpg")
+  no-repeat center center/cover;
+}
+
+/*Clients section*/
+
+#clients .items {
+  display: flex;
+}
+#clients .items img {
+  display: block;
+  margin: auto;
+  width: 60%;
+}
+
+/*Contact section*/
+
+#contact {
+  display: flex;
+}
+#contact .contact-form,
+#contact .map {
+  flex:1;
+  flex-basis: 50%;
+}
+#contact .contact-form .form-group {
+  margin: 0.75rem;
+}
+#contact .contact-form label {
+  display: block;
+}
+#contact .contact-form input {
+  width: 100%;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 5px;
+}
+/*FIX ME*/
+#contact .contact-from .form-group textarea{
+  width: 100%;
+  padding: 0.5rem;
+}
