@@ -197,8 +197,8 @@ li{
   border: none;
   border-radius: 5px;
 }
-/*FIX ME*/
-#contact .contact-from .form-group textarea{
+#contact .contact-form .form-group textarea{
   width: 100%;
   padding: 0.5rem;
+  resize: none;
 }
