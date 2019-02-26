@@ -2,6 +2,7 @@
   display: flex;
   text-align: left;
 }
+
 #what .items .item i {
   margin-right: 1.3rem;
   margin-bottom: 0;
@@ -9,5 +10,5 @@
 }
 
 #contact .contact-form {
-  flex:2;
+  flex: 2;
 }
