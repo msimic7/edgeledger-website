@@ -1,0 +1,24 @@
+{
+  "name": "edgeledger-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/msimic7/edgeledger-website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/msimic7/edgeledger-website/issues"
+  },
+  "homepage": "https://github.com/msimic7/edgeledger-website#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
