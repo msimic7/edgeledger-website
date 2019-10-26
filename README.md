@@ -1,4 +1,4 @@
-# EDGELEDGER-WEBSITE
+# EdgeLedger
 Simple one page website.
 
 Live: https://edgeledger-website.herokuapp.com/
