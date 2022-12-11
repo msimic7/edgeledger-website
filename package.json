@@ -19,6 +19,6 @@
   },
   "homepage": "https://github.com/msimic7/edgeledger-website#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.3"
   }
 }
